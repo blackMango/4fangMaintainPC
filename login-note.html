@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="CSS/style.css">
+<link rel="stylesheet" type="text/css" href="CSS/login-note.css">
+
+<script src="js/jquery.js"></script>
+<meta charset="utf-8">
+<title>无标题文档</title>
+</head>
+
+<body id="regist">
+<div class="regist">
+	<div class="ctrl">
+    	<input type="image" src="images/photo06.png" >
+    </div>
+	<h1>欢迎登录</h1>
+    <ul class="overflowH">
+    	<li><a href="login-common.html" target="regist">普通登录</a></li>
+        <li><a class="current" href="login-note.html" target="regist">短信登录</a></li>
+    </ul>
+    <form class="overflowH">
+    	<div class="overflowH">
+        	<h3>手机号：</h3>
+            <div class="phonebox">
+            	<input class="phone" type="tel" placeholder="请输入您的手机号">
+                <button class="submit" type="submit">免费获取校验码</button>
+            </div>
+        </div>
+    	<div class="overflowH">
+        	<h3>校验码：</h3>
+            <div class="phonebox">
+            	<input class="pass" type="password" placeholder="请输入您收到的短信校验码">
+            </div>
+        </div>
+        <button type="submit">立即登录</button>
+    </form>
+    <hgroup>
+    	<h6>&nbsp;&nbsp;<a>检验码常见问题</a></h6>
+    	<h5><a href="regist-phone.html" target="regist">注册新账号</a>&nbsp;&nbsp;| </h5>
+    </hgroup>
+</div>
+
+<script>
+$(".regist > .ctrl").click(
+	function(){
+		$("#regist").remove();
+	}
+)
+
+
+</script>
+
+
+</body>
+</html>

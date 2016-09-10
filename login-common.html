@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="CSS/style.css">
+<link rel="stylesheet" type="text/css" href="CSS/login-common.css">
+<script src="js/jquery.js"></script>
+<meta charset="utf-8">
+<title>无标题文档</title>
+</head>
+
+<body id="regist">
+<div class="regist">
+	<div class="ctrl">
+    	<input type="image" src="images/photo06.png" >
+    </div>
+	<h1>欢迎登录</h1>
+    <ul class="overflowH">
+    	<li><a class="current" href="login-common.html" target="regist">普通登录</a></li>
+        <li><a href="login-note.html" target="regist">短信登录</a></li>
+    </ul>
+    <form class="overflowH">
+    	<div class="overflowH">
+        	<h3>手机号：</h3>
+            <div class="phonebox">
+            	<input class="phone" type="tel" placeholder="手机号/用户名/邮箱">
+            </div>
+        </div>
+    	<div class="overflowH">
+        	<h3>密<del>密</del>码：</h3>
+            <div class="phonebox">
+            	<input class="phone" type="password" placeholder="请输入您的密码">
+            </div>
+        </div>
+        <div class="button">立即登录</div>
+        <div class="check-box"> 
+        </div>
+    </form>
+    <hgroup>
+    	<h6>&nbsp;&nbsp;<a>忘记密码？</a></h6>
+    	<h5><a href="regist-phone.html" target="regist">注册新账号</a>&nbsp;&nbsp;| </h5>
+    </hgroup>
+</div>
+
+
+<script>
+$(".regist > .ctrl").click(
+	function(){
+		$("#regist").remove();
+	}
+)
+
+
+</script>
+
+
+</body>
+</html>

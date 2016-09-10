@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* CSS Document */
+.regist {
+	position:relative;
+	width:500px;
+	height:460px;
+	border:1px solid #2ac7f8;
+	background-color:#fff;
+	-webkit-box-shadow: #666 0px 3px 10px;
+	-moz-box-shadow: #666 0px 3px 10px;
+	-ms-box-shadow: #666 0px 3px 10px;
+	box-shadow: #666 3px 3px 10px;	
+}
+.regist > .ctrl {
+	position:absolute;
+	top:20px;
+	right:20px;
+	width:24px;
+	height:24px;
+	border-radius:24px;
+	background-color:#4ecef6;
+	cursor:pointer;
+}
+.regist > .ctrl > input {
+	margin:4px;
+}
+.regist > h1 {
+	width:400px;
+	font-family:"创艺简楷体";
+	font-size:30px;
+	line-height:50px;
+	color:#2a2a2a;
+	margin:0px auto;
+	text-align:center;
+	padding:20px 0px 0px
+}
+.regist > ul {
+	width:400px;
+	margin:10px auto;
+	list-style:none;
+	padding:0px 30px;
+	border-bottom:3px solid #fc6701;
+}
+.regist > ul > li {
+	list-style:none;
+	float:left;
+	
+}
+.regist > ul > li a {
+	font-size:18px;
+	font-family:"创艺简楷体";
+	color:#6a6a6a;
+	line-height:30px;
+	width:170px;
+	display:inline-block;
+	text-align:center;
+}
+.current {
+	border-bottom:3px solid #009944;
+}
+.regist > form {
+	width:320px;
+	margin:0px auto;
+}
+.regist > form h3 {
+	font-size:16px;
+	color:#666;
+	font-family:"创艺简楷体";
+	float:left;
+	line-height:36px;
+	margin:10px 0px;
+	letter-spacing:3px;
+	font-weight:normal;
+}
+.regist > form h3 del {
+	letter-spacing:3px;
+	font-size:16px;
+	line-height:36px;
+	font-family:"创艺简楷体";
+	opacity:0;
+}
+.regist > form .phonebox {
+	float:right;
+	margin:10px 0px 0px;
+	width:240px;
+}
+.regist > form .phone {
+	width:240px;
+	height:36px;
+	background-color:#ecfaff;
+	border:1px solid #009944;
+	border-radius:4px;
+	float:left;
+}
+.regist > form .phonebox h4 {
+	font-size:12px;
+	font-family:"创艺简楷体";
+	color:#909090;
+	line-height:24px;
+	font-weight:normal;
+	float:left;
+}
+.regist > form .phonebox a {
+	color:#0181ab;
+	font-family:"创艺简楷体";
+	line-height:24px;
+	float:left;
+}
+.regist > form .pass {
+	width:90px;
+	height:36px;
+	background-color:#ecfaff;
+	border:1px solid #009944;
+	border-radius:4px;
+	float:left;
+}
+.regist > form button {
+	float:right;
+	width:240px;
+	height:36px;
+	border-radius:4px;
+	background-color:#009944;
+	border:none;
+	font-size:20px;
+	font-family:"创艺简楷体";
+	color:#fafafa;
+	text-align:center;
+	cursor:pointer;
+	margin:10px 0px 0px;
+}
+.regist > form .check-box {
+	width:240px;
+	float:right;
+	margin:10px 0px;
+}
+.regist > form check-box {
+	float:left;
+}
+.regist > form .check-box p {
+	float:right;
+	margin:0px 2px;
+	font-family:"创艺简楷体";
+	line-height:15px;
+}
+.regist > form .check-box b {
+	float:right;
+	color:#0181ab;
+	font-weight:normal;
+	font-family:"创艺简楷体";
+	line-height:15px;
+	margin:0px 15px 0px 0px;
+}
+.regist > hgroup {
+	width:400px;
+	margin:10px auto;	
+}
+.regist > hgroup h6 {
+	float:right;
+	font-weight:normal;
+	font-family:"创艺简楷体";
+	line-height:18px;
+}
+.regist > hgroup h5 {
+	float:right;
+	font-weight:normal;
+	font-family:"创艺简楷体";
+	line-height:18px;
+}
+.regist > hgroup a {
+	color:#fc6701;
+	font-family:"创艺简楷体";
+	line-height:18px;
+	margin:0px;
+}
+
+
+
+
+
+
+
+
+
+

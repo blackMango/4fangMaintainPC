@@ -1,0 +1,419 @@
+@charset "utf-8";
+/* CSS Document */
+#section,#section .bannerbox > img,#section .arrive .arrivebox {
+	width:100%;
+}
+#section .banner {
+	height:320px;
+	position:relative;
+	background-color:#fafafa;
+}
+#section .banner .bannerbox,#section .banner .ctrlboxsmall,#section .ad,#section .arrive hgroup,#section .arrive .form,#section .recover {
+	width:1000px;
+	margin:0 auto;
+}
+#section .banner .bannerbox {
+	overflow:hidden;
+	height:320px;
+	position:relative;
+}
+#section .banner .bannerbox .imgbox {
+	width:4000px;
+}
+#section .banner .bannerbox .imgbox img {
+	float:left;
+}
+#section .banner .ctrlbox {
+	width:100%;
+	height:40px;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	z-index:1000;
+}
+#section .banner .ctrlboxsmall {
+	background-color:#fff;
+	opacity:0.3;
+}
+#section .banner .ctrl {
+	width:40px;
+	height:10px;
+	background-color:#000;
+	margin:15px 5px;
+	float:right;
+	cursor:pointer;
+	-webkit-opacity:0.4;
+	-moz-opacity:0.4;
+	-ms-opacity:0.4;
+	opacity:0.4;
+}
+#section .banner .current-opa {
+	-webkit-opacity:0.9;
+	-moz-opacity:0.9;
+	-ms-opacity:0.9;
+	opacity:0.9;
+}
+.current-bg {
+	background-color:#ff8305;
+}
+#section .bannerbox #aside {
+	width:240px;
+	height:320px;
+	background-color:#00c7db;
+	position:absolute;
+	left:0px;
+	top:0px;
+	z-index:99999;
+}
+#section .bannerbox iframe {
+	background-color:rgba(0,0,0,0);
+	position:absolute;
+	left:240px;
+	top:0px;
+	z-index:1000;
+}
+#section .bannerbox #aside img {
+	float:left;
+	margin:20px 10px;
+}
+#section .bannerbox #aside h3 {
+	float:left;
+	color:#FFF;
+	line-height:79px;
+	font-size:16px;
+	font-weight:normal;
+}
+#section .bannerbox #aside span {
+	float:right;
+	color:#FFF;
+	line-height:79px;
+	font-size:16px;
+	margin:0px 10px;
+}
+#section .bannerbox #aside hr {
+	border:#FFFFFF 1px dashed;
+	margin:0px;
+	opacity:0.6;
+}
+#section .ad figure {
+	float:left;
+	width:320px;
+	height:220px;
+	text-align:center;
+	padding:15px 0px 0px;
+	margin:20px 0px 0px;
+}
+#section .ad .current {
+	margin:20px 20px 0px;
+}
+#section .ad figure h3 {
+	line-height:28px;
+	font-size:24px;
+	font-family:"楷体";
+}
+#section .ad figure h4 {
+	line-height:20px;
+	font-size:14px;
+	font-family:"楷体";
+}
+#section .ad figure:nth-child(1) h3,#section .ad figure:nth-child(1) h4 {
+	color:#007e6a;
+}
+#section .ad figure:nth-child(2) h3,#section .ad figure:nth-child(2) h4 {
+	color:#0786c0;
+}
+#section .ad figure:nth-child(3) h3,#section .ad figure:nth-child(3) h4 {
+	color:#1a9c6e;
+}
+#section .ad figure img {
+	margin:10px 110px 0px;
+}
+#section .ad figure:nth-child(1) {
+	background-color:#7afbe7;
+}
+#section .ad figure:nth-child(2) {
+	background-color:#4dbdf0;
+}
+#section .ad figure:nth-child(3) {
+	background-color:#84f97e;
+}
+#section .arrive .arrivebox {
+	background-color:#FFF;
+}
+#section .arrive form > .search {
+	margin:10px;
+	float:right;
+}
+#section .arrive form > .search input {
+	width:200px;
+	height:36px;
+	border:1px solid #00c7db;
+	background-color:#fafafa;
+	padding:0px 10px;
+	color:#999;
+	float:right;
+}
+#section .arrive form > .search span {
+	float:right;
+	width:60px;
+	height:36px;
+	text-align:center;
+	line-height:36px;
+	color:#fafafa;
+	background-color:#00c7db;
+	border-radius:0px 20px 20px 0px;
+}
+
+#section .arrive form select {
+	width:100px;
+	height:36px;
+	border:1px solid #00c7db;
+	background-color:#f9fefe;
+	float:right;
+	margin:10px 0px 10px 10px;
+}
+#section .arrive .form .arrivebox-left {
+	width:660px;
+	float:left;
+}
+#section .arrive .form .arrivebox-right {
+	width:320px;
+	float:right;
+}
+#section .arrive .form ul {
+	height:40px;
+	background-color:#fafafa;
+	border-bottom:1px solid #00c7db;
+	margin-bottom:10px;
+}
+#section .arrive .form ul li {
+	width:120px;
+	line-height:39px;
+	font-size:14px;
+	font-family:"创艺简标宋";
+	float:left;
+	text-align:center;
+	list-style:none;
+	cursor:pointer;
+}
+.current-style {
+	background-color:#FFF;
+	border:1px solid #00c7db;
+	border-bottom:none;
+	color:#0086af;
+}
+#section .arrive .form .arrivebox-left figure {
+	border:1px solid #fafafa;
+	border-bottom:none;
+	position:relative;
+}
+#section .arrive .form .arrivebox-left figure > img {
+	float:left;
+	margin:15px 10px;
+}
+#section .arrive .form .arrivebox-left figcaption {
+	width:510px;
+	float:left;
+	margin:17px 0px;
+}
+#section .arrive .form .arrivebox-left figure span {
+	float:left;
+	margin:0px 0px 0px 40px;
+	line-height:30px;
+}
+#section .arrive .form .arrivebox-left hgroup {
+	width:510px;
+}
+#section .arrive .form .arrivebox-left h2 {
+	float:left;
+	font-size:16px;
+	font-family:"创艺简标宋";
+	color:#0086af;
+	line-height:30px;
+}
+#section .arrive .form .arrivebox-left h3 {
+	font-size:14px;
+	font-family:"创艺简标宋";
+	color:#666;
+	line-height:30px;
+	font-weight:normal;
+}
+#section .arrive .form .arrivebox-left h4 {
+	font-size:14px;
+	font-family:"创艺简标宋";
+	color:#666;
+	line-height:30px;
+	font-weight:normal;
+}
+#section .arrive .form .arrivebox-left h5 {
+	font-size:14px;
+	font-family:"创艺简标宋";
+	color:#666;
+	line-height:30px;
+	font-weight:normal;
+}
+#section .arrive .form .arrivebox-left p {
+	width:140px;
+	height:40px;
+	background-color:#f7922f;
+	border:1px solid #ff830a;
+	border-radius:8px;
+	position:absolute;
+	bottom:15px;
+	right:15px;
+}
+#section .arrive .form .arrivebox-left a {
+	display:inline-block;
+	font-size:22px;
+	color:#fff;
+	text-align:center;
+	line-height:40px;
+	width:140px;
+	font-family:"创艺简楷体";
+}
+#section .arrive .form .arrivebox-left hgroup > img {
+	margin:9px 5px;
+	float:left;
+}
+#section .arrive .form .arrivebox-left .current-mag {
+	border-bottom:1px solid #FaFaFa;
+	margin-bottom:20px;
+}
+
+#section .arrive .form .arrivebox-right h2 {
+	width:320px;
+	line-height:50px;
+	border:1px solid #f0f0f0;
+	font-size:20px;
+	color:#555;
+	padding:0px 10px;
+	font-family:"创艺简标宋";
+}
+#section .arrive .form .arrivebox-right figure {
+	position:relative;
+	width:320px;
+	height:110px;
+	border:1px solid #f0f0f0;
+	border-top:none;
+}
+#section .arrive .form .arrivebox-right img {
+	margin:15px 10px;
+	float:left;
+}
+#section .arrive .form .arrivebox-right figcaption {
+	width:190px;
+	float:left;
+	margin:15px 0px 0px;
+}
+#section .arrive .form .arrivebox-right span {
+	width:16px;
+	line-height:16px;
+	background-color:#F00;
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	text-align:center;
+	color:#FFF;
+	font-family:"创艺简楷体";
+	font-size:14px;
+}
+#section .arrive .form .arrivebox-right h3 {
+	font-size:16px;
+	line-height:24px;
+}
+#section .arrive .form .arrivebox-right p {
+	font-size:14px;
+	-webkit-text-overflow:ellipsis;
+	-moz-text-overflow:ellipsis;
+	-ms-text-overflow:ellipsis;
+	text-overflow:ellipsis;
+	line-height:20px;
+}
+#section .arrive .form .arrivebox-right h4 {
+	color:#0CF;
+	line-height:20px;
+	font-family:"创艺简楷体";
+}
+
+#section .recover hgroup {
+	margin:10px 0px 0px;
+}
+#section .recover hgroup h2,#section .arrive h2 {
+	float:left;
+	font-size:28px;
+	color:#199b86;
+	font-family:"楷体";
+	line-height:50px;
+}
+#section .recover hgroup h3 {
+	float:right;
+	font-size:14px;
+	color:#666;
+	font-family:"楷体";
+	line-height:16px;
+	font-weight:normal;
+	margin:25px 0px 0px;
+}
+#section .recover .recoverbox {
+	width:1000px;
+	height:342px;
+	border:1px solid #CCC;
+}
+#section  > .recover > .recoverbox > img {
+	float:left;
+} 
+#section  > .recover > .recoverbox figure {
+	float:left;
+}
+#section  > .recover > .recoverbox .current {
+	margin:0px 10px;
+}
+#section  > .recover > .recoverbox figure .img {
+	width:246px;
+	height:280px;
+	border:1px solid #ccc;
+	border-top:none;
+	background-color:#FFF;
+	position:relative;
+	padding:25px 0px;
+}
+#section  > .recover > .recoverbox figure .img span {
+	width:60px;
+	height:20px;
+	background-color:#F00;
+	color:#FFF;
+	text-align:center;
+	line-height:20px;
+	font-family:"楷体";
+	font-size:14px;
+	border-radius:4px;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+#section  > .recover > .recoverbox figure img {
+	margin:0px 8px;
+}
+#section  > .recover > .recoverbox figure h4{
+	font-size:14px;
+	font-family:"楷体";
+	color:#333;
+	line-height:30px;
+	text-align:center;
+	font-weight:normal;
+}
+#section  > .recover > .recoverbox figure h5{
+	font-size:18px;
+	font-family:"楷体";
+	color:#fc6701;
+	line-height:20px;
+	text-align:center;
+}
+
+
+
+
+
+
+
+

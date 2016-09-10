@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="CSS/style.css">
+<link rel="stylesheet" type="text/css" href="CSS/regist-phone.css">
+<script src="js/jquery.js"></script>
+<meta charset="utf-8">
+<title>无标题文档</title>
+</head>
+
+<body id="regist">
+<div class="regist">
+	<div class="ctrl">
+    	<input type="image" src="images/photo06.png" >
+    </div>
+	<h1>欢迎注册</h1>
+    <ul class="overflowH">
+    	<li><a class="current" href="regist-phone.html" target="regist">手机注册</a></li>
+        <li><a href="regist-email.html" target="regist">邮箱注册</a></li>
+    </ul>
+    <form class="overflowH">
+    	<div class="overflowH">
+        	<h3>手机号：</h3>
+            <div class="phonebox">
+            	<input type="tel" class="phone">
+            	<h4>请输入您的手机号</h4>
+            </div>
+        </div>
+    	<div class="overflowH">
+        	<h3>验证码：</h3>
+            <div class="phonebox">
+            	<div class="passbox overflowH">
+                	<input type="text" class="pass">
+                    <span>4361</span>
+                    <p>换一张</p>
+                </div>
+            	<h4>请输入图中的字母或数字，不区分大小写</h4>
+            </div>
+        </div>
+    	<div class="overflowH">
+        	<h3>密<del>密</del>码：</h3>
+            <div class="phonebox">
+            	<input type="password" class="phone">
+            	<h4>6-20个字符（区分大小写）</h4>
+            </div>
+        </div>
+        <button type="submit">马上注册</button>
+        <div class="check-box"> 
+        	<input type="checkbox">
+            <b>《第四方服务城条款》</b>
+            <p>我已阅读并同意</p>
+        </div>
+    </form>
+    <hgroup>
+    	<h6><a href="login-common.html" target="regist">立即登录</a></h6>
+    	<h5>已有账号，</h5>
+    </hgroup>
+</div>
+
+
+<script>
+$(".regist > .ctrl").click(
+	function(){
+		$("#regist").remove();
+	}
+)
+
+
+</script>
+</body>
+</html>
